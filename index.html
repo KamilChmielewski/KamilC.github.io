@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamil Chmielewski Portfolio</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sofia+Sans:wght@1;200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <div class="logo-container">
+      <a href="https://linkedin.com/in/kamil-chmielewski" target="_blank">
+    <img width="30px" height="30px" src="images/FreeGithub.png" alt="Linkedin">
+  </a>
+  <a href="https://github.com/KamilChmielewski?tab=repositories" target="_blank">
+    <img width="30px" height="30px" src="images/FreeLinkedin.png" alt="Linkedin">
+  </a>
+  <a href="mailto:kamil.chmielewski99@gmail.com" target="_blank">
+    <img width="30px" height="30px" src="images/FreeEmail.png" alt="Linkedin">
+  </a>
+  </div>
+  <ul class="sidebar">
+    <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" style="padding-left:10px"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+    <li onclick=navPressed()><a class="navlinksA" href="#Work">Work Experience</a></li>
+    <li onclick=navPressed()><a class="navlinksA" href="#Skills">Skils</a></li>
+    <li onclick=navPressed()><a class="navlinksA" href="#ProjectsMobile">Projects</a></li>
+  </ul>
+    <ul class="emptySideBar">
+      <li class="hideOnMobile"><a class="navlinksA" href="#Work">Work Experience</a></li>
+      <li class="hideOnMobile"><a class="navlinksA" href="#Skills">Skils</a></li>
+      <li class="hideOnMobile"><a class="navlinksA" href="#ProjectsDesktop">Projects</a></li>
+      <li onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+
+<!--ABOUT ME-->  
+  <div class="about-me">
+    <div class="text-container">
+     <!--   <h1>Hi, I'm Kamil</h1>
+        <h2>I'm a software Engineer that is currently working at Airbus as a Simulation Engineer in Donauwörth, Germany
+            I create Simulation Models that are used to train pilots</h2>-->
+            <div id="typedtext"></div>
+
+        </div>
+    <div class="image-container">
+        <img src="images/Kamil2.jpg"/>
+    </div>
+</div>
+
+<div class="container">
+  <div class="work-experience" id="Work">
+      <div class="image-star-left">
+          <svg width="142" height="141" viewBox="0 0 142 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Your SVG Path here -->
+              <path id="Star 4" d="M71 0L77.3475 41.1372L99.8783 6.13828L88.9451 46.3007L123.763 23.4917L97.4398 55.735L138.525 49.0598L101.363 67.8087L141.611 78.4215L100.036 80.4343L132.488 106.5L93.6882 91.4286L112.733 128.44L83.4177 98.8905L85.7617 140.448L71 101.53L56.2383 140.448L58.5823 98.8905L29.2672 128.44L48.3118 91.4286L9.5122 106.5L41.9642 80.4343L0.388947 78.4215L40.6372 67.8087L3.47499 49.0598L44.5602 55.735L18.2367 23.4917L53.0549 46.3007L42.1217 6.13828L64.6525 41.1372L71 0Z" fill="#E9E5D4"/>
+          </svg>
+          <h1>Work Experience</h1>
+      </div>
+
+      <div class="work-container">
+        <div class="work-date">
+            <h3>MAY 2022 - CURRENT</h3>
+        </div>
+        <div class="work-content">
+            <div class="work-title">
+                    <h1>Simulation Engineer - AIRBUS DONWAWOURTH (SII GmbH)</h1>
+            </div>
+    
+            <li>I specialize in developing helicopter simulation models with a focus on both graphical and logical aspects, 
+            employing C++ and C within DevOps practices. Operating in a Unix environment, I excel in integration, bug fixing, and adhere to Test Driven Development.</li>
+          <li>My management skills ensure timely deliverables, 
+            i'm also experienced in Agile Scrum and V-model(Used at the begining of the project) .</li>
+          <li>Beyond technical contributions, 
+            I actively support team growth by training new colleagues,
+             providing insights into project management, and participating in the interview process.</li>
+        </div>
+      </div>-
+    
+    
+      <div class="work-container">
+        <div class="work-date">
+            <h3>AUG 2021 - MAY 2022</h3>
+        </div>
+        <div class="work-content">
+           <div class="work-title">
+                  <h1>Software Engineer - AIRBUS OTTOBRUNN (Orizon GmbH)</h1>
+            </div>
+           
+            <li>In the context of satellite software development, I defined interfaces, aligned subsystems with CI/CD in a UNIX environment, 
+              and conducted thorough test preparation, execution, and code analysis. 
+              My responsibilities extended to the crucial task of refactoring the code base for improved efficiency and scalability.
+            </li>
+            <li>I actively contributed to the development of in-house testing solutions, 
+              ensuring a robust testing framework tailored to the unique requirements of the satellite software.
+               My role also involved performing code reviews for Quality Assurance</li>
+            <li>Additionally, I played a role in developing ARM microcontroller, this helped to grow my knowledge in embedded systems. 
+              My responsibilities encompassed coding, debugging, testing, communication with client.</li>
+    
+        </div>
+      </div>
+    
+      <div class="work-container">
+        <div class="work-date">
+            <h3>AUG 2021 - MAY 2021</h3>
+        </div>
+        <div class="work-content">
+            <div class="work-title">
+                    <h1>Graduate Software Engineer - FIRESPRITE LIVERPOOL UK</h1>
+            </div>
+
+            <li>Played a pivotal role in the collaborative development of in-house tools using C# and WinForms by
+              actively engaging with design teams to implement customized features.</li>
+
+              <li>Spearheaded the creation of video game applications for Xbox, 
+                PlayStation, Nintendo, and PC demonstrating adaptability across diverse platforms. 
+                Employed Continuous Integration (CI) practices, daily scrum meetings and robust code reviews.</li>
+
+                <li>As part of a leadership program, I served as the Xbox Lead, 
+                  taking sole ownership of memory management and graphical pipeline optimization. 
+                  During my tenure, I managed a small team and developed a memory management system specifically designed for the Xbox Console. 
+                  I also established foundations for the seamless adaptation and deployment of the memory manager on other gaming consoles.
+                </li>      
+        </div>
+    </div>
+    
+    <div class="work-container">
+        <div class="work-date">
+            <h3>JULY 2018 - JULY 2019</h3>
+        </div>
+        <div class="work-content">
+            <div class="work-title">
+                    <h1>Simulation Engineer Intern - AIRBUS DONWAWOURTH</h1>
+            </div>
+
+            <li>Focused in Qt development, I created a range of in-house tools tailored to meet diverse project needs, 
+              that were defined by the client with constant new feature requests.</li>
+
+            <li>
+              Drove advancements in simulation models by actively contributing to feature development, 
+              addressing pull requests, and ensuring seamless collaboration within an agile environment. 
+              This involved a hands-on approach to enhancing simulation capabilities
+               and maintaining code quality throughout the development lifecycle.
+            </li>
+
+            <li> Helped maintaining code integrity and quality assurance by conducting thorough code reviews.
+              High quality code was required before releasing a new software update due to the complex nature of Aviation.
+            </li>
+    
+        </div>
+    </div>
+
+
+
+  </div>
+</div>
+
+<div class="skill-container" id="Skills">
+  <div class="container">
+  <div class="image-star-right">
+    <svg width="142" height="141" viewBox="0 0 142 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path id="Star 4" d="M71 0L77.3475 41.1372L99.8783 6.13828L88.9451 46.3007L123.763 23.4917L97.4398 55.735L138.525 49.0598L101.363 67.8087L141.611 78.4215L100.036 80.4343L132.488 106.5L93.6882 91.4286L112.733 128.44L83.4177 98.8905L85.7617 140.448L71 101.53L56.2383 140.448L58.5823 98.8905L29.2672 128.44L48.3118 91.4286L9.5122 106.5L41.9642 80.4343L0.388947 78.4215L40.6372 67.8087L3.47499 49.0598L44.5602 55.735L18.2367 23.4917L53.0549 46.3007L42.1217 6.13828L64.6525 41.1372L71 0Z" fill="#E9E5D4"/>
+      </svg>
+      <h1 >Skills</h1>
+  </div>
+ </div>
+
+  <div class="skill-box">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Management</h2>
+      <p>Consistently achieved project deadlines.<br></br></p>
+      <p>Facilitated the training of new colleagues.<br></br></p>
+      <p>Oversaw various simulation components.<br></br></p>
+  </div>
+
+  <div class="skill-box-lower">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Simulation</h2>
+      <p>Vast knowledge of Simulation enviroment in Airbus Group.<br></br></p>
+  </div>
+
+  <div class="skill-box">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Programming</h2>
+      <p>Profficient in: C, C++, C# </p>
+      <p>Familiar with: Python, Java, Lua<br></br></p>
+  </div>
+
+  <div class="skill-box-lower">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Design Patterns</h2>
+      <p>I routinely apply design patterns in my work, 
+        ensuring the development of efficient and maintainable software. 
+        <br></br></p>
+  </div>
+
+  <div class="skill-box">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>API's</h2>
+      <p>Experienced with:<br></br> Qt, OpenGL, DirectX, Boost, DDS<br></br></p>
+  </div>
+
+  <div class="skill-box-lower">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Tools</h2>
+      <p>Experience with:<br></br> Github, svn, Jira, Confluence, 
+        Pforge, Jenkins, FishEye, Linux, Visual Studio, Eclipse <br></br> </p>
+  </div>
+
+  <div class="skill-box">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Agile</h2>
+      <p>In my work I have used the following software methodilies:
+        scrum, V-Model, CI/CD, Waterfall, DevOps, FDD <br></br>
+      </p>
+  </div>
+
+  <div class="skill-box-lower">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Problem solving</h2>
+      <p>Ability to innovate and solve complex problems, 
+        contributing to the continuous improvement of software development processes. <br></br></p>
+  </div>
+
+ <!-- <div class="skill-box-lower">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Skill 9</h2>
+      <p>Description Here <br></br></p>
+  </div>
+
+  <div class="skill-box">
+      <img width="30px" height="30px" src="images/departures.png" alt="departures Icon"/>
+      <h2>Skill 10</h2>
+      <p>Description Here</p>
+  </div>
+</div>-->
+
+
+<div class="container hideOnMobile">
+  <div class="project-experience" id="ProjectsDesktop">
+      <div class="image-star-left">
+        <svg width="142" height="141" viewBox="0 0 142 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path id="Star 4" d="M71 0L77.3475 41.1372L99.8783 6.13828L88.9451 46.3007L123.763 23.4917L97.4398 55.735L138.525 49.0598L101.363 67.8087L141.611 78.4215L100.036 80.4343L132.488 106.5L93.6882 91.4286L112.733 128.44L83.4177 98.8905L85.7617 140.448L71 101.53L56.2383 140.448L58.5823 98.8905L29.2672 128.44L48.3118 91.4286L9.5122 106.5L41.9642 80.4343L0.388947 78.4215L40.6372 67.8087L3.47499 49.0598L44.5602 55.735L18.2367 23.4917L53.0549 46.3007L42.1217 6.13828L64.6525 41.1372L71 0Z" fill="#E9E5D4"/>
+          </svg>
+          <h1 >Project Experience</h1>
+      </div>
+
+      <div class="project-container">
+          <div class="projectsVideo">
+              <iframe width="100%" height="100%" id="myText" src="Videos/FinalThesis.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="project-content">
+              <div class="project-title">
+                      <h2>Final year thesis</h2>
+              </div>
+              <p>For my thesis, I explored the feasibility of simulating realistic in-game hair. 
+                Leveraging Hook's Law and Compute shaders in conjunction with a mass aggregate particle system, I successfully crafted lifelike virtual hair. 
+                Although initially achieving 60FPS with over 1.9 million particles (approximately 150,000 strands) on an Nvidia 1070, 
+                the strain on the GPU resulted in visible issues with too many strands. Through optimization, 
+                I successfully produced realistic hair using only 10,000 strands. </p>
+
+                    <a href="https://github.com/KamilChmielewski/Hair-Simulation-Dissertation" target="_blank">
+                      <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                    </a>
+          </div>
+      </div>
+
+      <div class="project-container">
+          <div class="project-content">
+              <div class="project-title">
+                      <h2>Physics Demo</h2>
+              </div>
+              <p>
+                This project showcases collision interactions with planes and cubes, featuring diverse force generators like Gravity, 
+                laminar, and turbulent forces. The particle system incorporates an object pool, 
+                notably demonstrated through explosive particles. 
+                Additionally, observe the dynamic rotation of the large cube, influenced by torque and inertia.</p>
+
+                    <a href="https://github.com/KamilChmielewski/Physics-Semester-2-year-2" target="_blank">
+                      <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                    </a>
+          </div>
+          <div class="projectsVideo">
+              <iframe width="100%" height="100%" id="myText" src="Videos/Physics.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <div class="project-container">
+          <div class="projectsVideo">
+              <iframe width="100%" height="100%" id="myText" src="Videos/Terrain.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="project-content">
+              <div class="project-title">
+                      <h2>Terrain Generation and Skeletal animation</h2>
+              </div>
+              <p>Utilizing the MD5 Model format, I imported a skinned character with a predefined animation. 
+                The scene comprises three prominent objects. 
+                The first, on the far right, showcases terrain generation through a height map. 
+                The cube to the right employs Instancing, voxels, and the simplex noise algorithm with octaves, comprising approximately 250,000 cubes. 
+                Lastly, the object on the far left is a result of the diamond-square algorithm.</p>
+
+                    <a href="https://github.com/KamilChmielewski/Terrain-Generation-And-Animation" target="_blank">
+                      <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                    </a>
+                    
+          </div>
+      </div>
+
+      <div class="project-container">
+          <div class="project-content">
+              <div class="project-title">
+                      <h2>Ray-tracing image into video</h2>
+              </div>
+                <p>
+                  In this project, I designed a smart thread task system that efficiently handled tasks across
+                   multiple threads. Threads dynamically shared tasks to boost overall efficiency.
+                  
+                  The application utilizes ray tracing on spheres, capturing data for later video creation.
+                   Additionally, I developed a user-friendly offline editor in C# to define light sources, 
+                   sphere positions, amount of rays etc. This would be saved to a Json to later be given to the application.
+                 </p>
+                    <a href="https://github.com/KamilChmielewski/Low-Level-Programming" target="_blank">
+                      <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                    </a>
+          </div>
+          <div class="projectsVideo">
+              <iframe width="100%" height="100%" id="myText" src="Videos/VideoOutput.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <div class="project-container">
+          <div class="projectsVideo">
+              <iframe width="100%" height="100%" id="myText" src="Videos/Graphics.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="project-content">
+              <div class="project-title">
+                      <h2>Graphical Demo​</h2>
+              </div>
+              <p>
+                This project showcases diverse graphical techniques, 
+                encompassing Deferred Rendering and Bump and Parallax mapping, 
+                elegantly demonstrated on a textured cube. Additionally, 
+                it features a Dissolve Shader implementation, 
+                aimed at replicating the visual effect of a burning paper through
+                use of a height map to identify and progressively eliminate darker regions.
+              </p>
+
+                    <a href="https://github.com/KamilChmielewski/Final-year-semester-1-Graphics/" target="_blank">
+                      <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                    </a>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+<!--Desktop Version -->
+<div class="container hideOnDesktop">
+  <div class="project-experience" id="ProjectsMobile">
+      <div class="image-star-left">
+        <svg width="142" height="141" viewBox="0 0 142 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path id="Star 4" d="M71 0L77.3475 41.1372L99.8783 6.13828L88.9451 46.3007L123.763 23.4917L97.4398 55.735L138.525 49.0598L101.363 67.8087L141.611 78.4215L100.036 80.4343L132.488 106.5L93.6882 91.4286L112.733 128.44L83.4177 98.8905L85.7617 140.448L71 101.53L56.2383 140.448L58.5823 98.8905L29.2672 128.44L48.3118 91.4286L9.5122 106.5L41.9642 80.4343L0.388947 78.4215L40.6372 67.8087L3.47499 49.0598L44.5602 55.735L18.2367 23.4917L53.0549 46.3007L42.1217 6.13828L64.6525 41.1372L71 0Z" fill="#E9E5D4"/>
+          </svg>
+          <h1 >Project Experience</h1>
+      </div>
+
+      <div class="project-container">
+        <div class="project-content">
+          <div class="project-title">
+                  <h2>Final year thesis</h2>
+          </div>
+          <p>For my Thesis I decided to investigate if it is feasible to simulate realistic hair 
+              within game. Using Hook’es law and Compute shaders with a mass aggregate particle
+               system I was able to create realistic hair. 
+                I Was able to achieve 60FPS simulating a full set of hair which contained over
+                1.9 Million practices all having physics applied</p>
+
+                <a href="https://github.com/KamilChmielewski/Hair-Simulation-Dissertation" target="_blank">
+                  <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                </a>
+      </div>
+          <div class="projectsVideo">
+            <iframe width="100%" height="100%" id="myText" src="Videos/FinalThesis.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <div class="project-container">
+        <div class="project-content">
+          <div class="project-title">
+                  <h2>Physics Demo</h2>
+          </div>
+          <p>This project showcases collision interactions with planes and cubes, featuring diverse force generators like Gravity, 
+            laminar, and turbulent forces. The particle system incorporates an object pool, 
+            notably demonstrated through explosive particles. 
+            Additionally, observe the dynamic rotation of the large cube, influenced by torque and inertia.</p>
+
+                <a href="https://github.com/KamilChmielewski/Physics-Semester-2-year-2" target="_blank">
+                  <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                </a>
+      </div>
+          <div class="projectsVideo">
+            <iframe width="100%" height="100%" id="myText" src="Videos/Physics.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+      </div>
+
+      <div class="project-container">
+        <div class="project-content">
+          <div class="project-title">
+                  <h2>Terrain Generation and Skeletal animation</h2>
+          </div>
+          <p>Utilizing the MD5 Model format, I imported a skinned character with a predefined animation. 
+            The scene comprises three prominent objects. 
+            The first, on the far right, showcases terrain generation through a height map. 
+            The cube to the right employs Instancing, voxels, and the simplex noise algorithm with octaves, comprising approximately 250,000 cubes. 
+            Lastly, the object on the far left is a result of the diamond-square algorithm.</p>
+
+                <a href="https://github.com/KamilChmielewski/Terrain-Generation-And-Animation" target="_blank">
+                  <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                </a>
+                
+      </div>
+          <div class="projectsVideo">
+              <iframe width="100%" height="100%" id="myText" src="Videos/Terrain.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <div class="project-container">
+          <div class="project-content">
+              <div class="project-title">
+                      <h2>Ray-tracing image into video</h2>
+              </div>
+              <p>In this project, I designed a smart thread task system that efficiently handled tasks across
+                multiple threads. Threads dynamically shared tasks to boost overall efficiency.
+               
+               The application utilizes ray tracing on spheres, capturing data for later video creation.
+                Additionally, I developed a user-friendly offline editor in C# to define light sources, 
+                sphere positions, amount of rays etc. This would be saved to a Json to later be given to the application.</p>
+
+                    <a href="https://github.com/KamilChmielewski/Low-Level-Programming" target="_blank">
+                      <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                    </a>
+          </div>
+          <div class="projectsVideo">
+              <iframe width="100%" height="100%" id="myText" src="Videos/VideoOutput.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <div class="project-container">
+        <div class="project-content">
+          <div class="project-title">
+                  <h2>Graphical Demo​</h2>
+          </div>
+          <p>This project showcases diverse graphical techniques, 
+            encompassing Deferred Rendering and Bump and Parallax mapping, 
+            elegantly demonstrated on a textured cube. Additionally, 
+            it features a Dissolve Shader implementation, 
+            aimed at replicating the visual effect of a burning paper through
+            use of a height map to identify and progressively eliminate darker regions.</p>
+
+                <a href="https://github.com/KamilChmielewski/Final-year-semester-1-Graphics/" target="_blank">
+                  <img width="40px" height="40px" src="images/FreeGithub.png" style="margin-top:20px">
+                </a>
+      </div>
+          <div class="projectsVideo">
+              <iframe width="100%" height="100%" id="myText" src="Videos/Graphics.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </div>
+
+  </div>
+</div>
+</div>
+
+
+<div class="footer">
+  <div stlye="flex">
+    <ul>
+      <li>Contact Details: <br></br></li>
+      <li>Email: kamil.chmielewski99@gmail.com</li>
+      <li>+4915223832638<br></br></li>
+      <li></li>
+    </ul>
+  </div>
+</div>
+
+
+<script src="js/aboutMe.js"></script>
+  <script>
+    function showSideBar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+
+    function hideSideBar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+
+    }
+
+    function navPressed(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+
+  </script>
+
+</body>
+</html>
