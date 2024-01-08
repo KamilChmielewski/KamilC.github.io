@@ -421,7 +421,7 @@ nav li:first-child {
   font-family: 'Poppins', sans-serif;
 }
 
-.project-content p{
+.project-content p{ 
   color: #204944;
   font-size: 2vh;
   font-family: 'Open Sans', sans-serif;
@@ -597,10 +597,11 @@ nav li:first-child {
   .skill-box {
     display: flex;
     flex-direction: column;
-    width: 20vh;
-    height: 30vh;
-    margin: 0.5%;
-    margin-bottom: 0%;
+    width: 80%;
+    height: unset;
+
+    margin: 2%;
+    margin-bottom: 5%;
     border: 2px solid;
     border-color:#C2CAE1;
     box-sizing: border-box;
@@ -609,9 +610,11 @@ nav li:first-child {
   .skill-box-lower {
     display: flex;
     flex-direction: column;
-    width: 20vh;
-    height: 30vh;
-    margin: unset;
+    width: 80%;
+    height: unset;
+
+    margin: 2%;
+    margin-bottom: 5%;
     border: 2px solid;
     border-color:#C2CAE1;
     box-sizing: border-box;
@@ -641,7 +644,7 @@ nav li:first-child {
 .skill-box-lower p {
   padding-left: 10%;
   height: 100%;
-  font-size: 1.5vh;
+  font-size: 2vh;
   word-wrap: wrap;
 }
   
@@ -743,10 +746,6 @@ nav li:first-child {
   margin: 0 auto; /* Center the container horizontally */
   height: 90%;
   border: 2px;
-}
-
-.skill-box-lower{
-  margin-bottom: 0%;
 }
 
 }
